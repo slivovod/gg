@@ -1,0 +1,15 @@
+print("Введите высоту фигуры:")
+h = int(input())
+
+print("Введите ширину фигуры:")
+w = int(input())
+
+s = w * h
+
+for i in range(h):
+    for j in range(w):
+        print("#", end="")
+    print("")
+
+
+print("S =", s)
