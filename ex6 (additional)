@@ -1,0 +1,20 @@
+print("Введите любое число:")
+num = input()
+sum = 0
+prdc = int(num[0])
+diff = int(num[0])
+for i in range(len(num)):
+    sum += int(num[i])
+    if i > 0:
+        convertedElement = int(num[i])
+        prdc *= convertedElement
+        diff -= convertedElement
+
+print("--Операции над цифрами данного числа--")
+print("Сумма: ", sum)
+print("Произведение: ", prdc)
+print("Разность: ", diff)
+
+
+
+#если успею до вечера, чуть позже еще допишу исключения для num == 0 и num < 0, а сейчас, к сожалению, нужно отойти(
