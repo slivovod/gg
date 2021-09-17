@@ -1,0 +1,10 @@
+print("Введите первое число:")
+firstNum = int(input())
+
+print("Введите второе число:")
+secondNum = int(input())
+
+print("Сумма:", firstNum + secondNum)
+print("Разница:", firstNum - secondNum)
+print("Произведение:", firstNum * secondNum)
+print("Деление:", firstNum / secondNum)
