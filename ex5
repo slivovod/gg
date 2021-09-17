@@ -1,0 +1,6 @@
+print("Укажите радиус:")
+r = int(input())
+p = 3.14159
+print("d =", r * 2)
+print("l =", (2 * p * r))
+print("s =", (p * (r ** 2)))
